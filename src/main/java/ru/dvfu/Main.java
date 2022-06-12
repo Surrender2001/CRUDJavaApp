@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        /*
         ArrayList<Client> clientList = new ArrayList<>();
         ArrayList<Stock> stockList = new ArrayList<>();
 
@@ -53,6 +54,17 @@ public class Main {
 
         } while (true);
 
+
+
+         */
+        Database.addClient("clientname1","clientlogin1","clientpassword1");
+        Database.addClient("clientname2","clientlogin2","clientpassword2");
+        Database.addClient("clientname3","clientlogin3","clientpassword3");
+        //Database.deleteUser("clientname2");
+        //System.out.println(Database.getClient("clientlogin3","clientpassword3"));
+
+        for(Client client : Database.dataBase)
+            System.out.println(client.toString());
 
     }
 }
