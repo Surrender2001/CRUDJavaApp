@@ -8,7 +8,7 @@ public class Main {
         /*
         ArrayList<Client> clientList = new ArrayList<>();
         ArrayList<Stock> stockList = new ArrayList<>();
-
+        //
         int i, id;
         String name, email, phone;
 
